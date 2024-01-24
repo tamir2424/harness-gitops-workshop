@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_gitops_workshop_1706065224398-push-trigger-input-set
+  identifier: Build_harness_gitops_workshop_1706065224398pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Tamir_2
+  pipeline:
+    identifier: Build_harness_gitops_workshop_1706065224398
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
